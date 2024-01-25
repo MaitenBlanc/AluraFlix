@@ -1,0 +1,21 @@
+@import '../../assets/variables/Fonts.css';
+
+.footer {
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+}
+
+.logoFooter {
+    display: flex;
+    width: 15em;
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+
+.dev,
+.year {
+    font-family: var(--grape-nuts);
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+}

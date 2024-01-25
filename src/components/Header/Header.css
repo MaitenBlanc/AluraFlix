@@ -1,0 +1,35 @@
+@import "../../assets/variables/Fonts.css";
+@import "../../assets/variables/Colors.css";
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1.5em;
+}
+
+.imgHeader {
+    width: 10em;
+    margin-left: 3em;
+}
+
+.buttonHeader {
+    float: left;
+    width: 11.25em;
+    height: 2.8em;
+    margin: auto 5em auto auto;
+    justify-content: center;
+    background: var(--blue);
+    border-radius: 0.5em;
+    border-color: transparent;
+
+    color: #FFF;
+    text-align: center;
+    font-family: var(--source-sans);
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.buttonHeader:hover {
+    background: #6B5BE2;
+}
